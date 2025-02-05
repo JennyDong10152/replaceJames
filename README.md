@@ -1,7 +1,7 @@
 # replaceJames
 To replace James Dong
 
-Version 1:
+Version 1: <br>
 查数
 context：文件里一个value associated property (ex. repository, revenue, EBIT, etc) 会在不同的section和chart里反复出现，数字可能是罗马数字或者spelled out，工作内容之一是每个property每改一次数字就manually找所有property相关的内容并确保数字改对了
 goal: given document，确保每个property的相应数字都consistent

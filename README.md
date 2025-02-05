@@ -8,9 +8,11 @@ Format：最终做出类似一个extension的东西在word/google docs上能用,
 Goal：<br>
 - given document，确保每个property的相应数字都consistent <br>
 - 每次property改数字的时候，自动把所有相关数字改了 <br>
+
 优势over chatgpt：<br>
 - 他们不能把ipo放进chatgpt里
 - 不信任，觉得chatgpt可能会改别的内容
+  
 Solution: <br>
 - 也许一个extension能get away with the ai problem？
 - 可以highlight需要改变的，confirm that 这个extension只会改指定内容

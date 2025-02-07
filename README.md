@@ -19,3 +19,8 @@ Solution: <br>
 
 Model: BERT-CRF <br>
 Advantage is that it is able to find dependencies between tags
+
+Later:
+PDF <br>
+formatting: can generate red boxes that law firms use <br>
+check math: increased x% from y to z, check if x% is correct

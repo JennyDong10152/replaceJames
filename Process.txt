@@ -15,3 +15,5 @@ normalize：identify $5M and 5 million dollars as the same number
 training: in net profit, only profit is labeled. Need to train more sentences including "total profit", "net profit"
 inclusive: must have year, property, and value. What if it is just a property and value pair?
 specific: do we need a year-time pair instead of year
+conversion: check only $ and dollar is considered consistent, not euros, rmb, etc.
+unit: dollar is "O" for now, do we need a label for units like this?

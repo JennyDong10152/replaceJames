@@ -10,6 +10,7 @@ simple test cases passed
 Problems:
 Major: 
 如果我有不同的triplet在一个句子里(revenue for 2021, 2022, 2023 was $1, $2, $3, respectively), 我可以identify value is associated with which year 吗
+chatgpt 说 Use BERT-CRF + Dependency Parsing + Pattern Recognition
 Minor: 
 normalize：identify $5M and 5 million dollars as the same number
 adjective: in net profit, only profit is labeled. Need to train more sentences including "total profit", "net profit", "operating cost", "total cost"

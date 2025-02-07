@@ -12,7 +12,7 @@ Major:
 如果我有不同的triplet在一个句子里(revenue for 2021, 2022, 2023 was $1, $2, $3, respectively), 我可以identify value is associated with which year 吗
 Minor: 
 normalize：identify $5M and 5 million dollars as the same number
-training: in net profit, only profit is labeled. Need to train more sentences including "total profit", "net profit"
+adjective: in net profit, only profit is labeled. Need to train more sentences including "total profit", "net profit", "operating cost", "total cost"
 inclusive: must have year, property, and value. What if it is just a property and value pair?
 specific: do we need a year-time pair instead of year
 conversion: check only $ and dollar is considered consistent, not euros, rmb, etc.

@@ -1,0 +1,9 @@
+2/6:
+Model: BERT-CRF
+Advantage is that it is able to find dependencies between tags
+Set up lables, training test, tokenized and assigned labels
+Problem: did not set up not correctly
+
+2/7:
+function 初步 correct
+simple test cases passed

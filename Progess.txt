@@ -20,6 +20,16 @@ conversion: check only $ and dollar is considered consistent, not euros, rmb, et
 unit: dollar is "O" for now, do we need a label for units like this?
 
 2/8:
+Solved:
+adjective: with more training sentences, it is able to detect "total profit", "net profit", etc. as one property
+structure: company-year-financial_property-value
+          money separated into currency, value, multiplier, seems working for many combos
+Problem:
+Major:
+extracted relationships is not accurate, the part of speech is too vague to differentiate companies from financial_properties,
+  monetary values categorized poorly
+bert alone is good at tagging, but can't recognize dependencies in a sentence
+Want to feed spaCy with labels output from BERT
 
 
 Future functionalities:

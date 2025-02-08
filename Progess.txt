@@ -18,3 +18,10 @@ inclusive: must have year, property, and value. What if it is just a property an
 specific: do we need a year-time pair instead of year
 conversion: check only $ and dollar is considered consistent, not euros, rmb, etc.
 unit: dollar is "O" for now, do we need a label for units like this?
+
+2/8:
+
+
+Future functionalities:
+detect if anything is missing: if values are mostly similar but one field is missing, we say we have a possibly missing field
+This would require the property and years to be correct in the first place, but we can detect least occurances and detect possibly incorrect fields

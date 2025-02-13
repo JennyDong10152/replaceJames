@@ -33,8 +33,10 @@ Want to feed spaCy with labels output from BERT
 
 2/13:
 Problems:
-Amazon's profit was 769.6 million, 788.1 million and 1,459.0 million dollars in 2021, 2022 and 2023, respectively. -> normalization
+Amazon's profit was 769.6 million, 788.1 million and 1,459.0 million dollars in 2021, 2022 and 2023, respectively. -> normalization. what if only dollar after the last value? what if its a unit-value-multiplier triplet?
+
 multiple properties/companies in one sentence -> break up a sentence into clauses
+how? break on propert, action verb, or self defind phrases? 
 
 to be implemented:
 % increase, decrease

@@ -31,18 +31,6 @@ extracted relationships is not accurate, the part of speech is too vague to diff
 bert alone is good at tagging, but can't recognize dependencies in a sentence
 Want to feed spaCy with labels output from BERT
 
-2/9:
-Solved:
-classification: 比较准确
-structure: dictionary with company, then sub-dictionary storing property, then sub with year, then finally the value
-dependency: approach -> if I see fields missing, I assume it will take the value of last occurance. ex). amazon's revenue for 2023 is $1, while meta is $2. I assume meta is also referring to revenue in 2023
-Problem:
-dependency implementation is not correct.
-Apprach: 
-1. add [CLS] and [SEP] as label and process one sentence at a time. It is not likely that one sentence will be referring to multiple property and values with multiple fields missing. 
-2. if i detect all but one field (that is not the value field) missing, i finish it automatically. We process one set at a time. 
-But this might be too confusing, as the structure of the sentence is different hence the ordering of fields vary. stack or queue?
-
 
 Future functionalities:
 detect if anything is missing: if values are mostly similar but one field is missing, we say we have a possibly missing field

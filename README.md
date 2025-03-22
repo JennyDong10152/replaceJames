@@ -17,10 +17,21 @@ Solution: <br>
 - 也许一个extension能get away with the ai problem？
 - 可以highlight需要改变的，confirm that 这个extension只会改指定内容
 
-Model: BERT-CRF <br>
+Model: Supervised learning <br>
 Advantage is that it is able to find dependencies between tags
 
 Later:
 PDF <br>
 formatting: can generate red boxes that law firms use <br>
 check math: increased x% from y to z, check if x% is correct
+
+
+Version x: 生成info book
+Goal: given公司名字，生成info book，包括industry overview, competitive advantage, company overview, company's financial information
+难点:
+- security：公司不愿意放ai在工作电脑上
+- 需要customize：修饰data （competitive advantage要找到公司领先的field，fi率先display好的data等）
+Competitive advantage over chatgpt：
+- chatgpt会编数据/编内容，我们可以做爬虫，确保不会瞎编
+- chatgpt内容重复，一多容易内容空洞没法用，我们可以specifically train招股书，确保这个写招股书格式内容usable
+
